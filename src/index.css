@@ -7,6 +7,25 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.jokes {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.joke {
+  flex-basis: 300px;
+  margin: 20px;
+}
+
+.joke > h3 {
+  text-align: center
+}
+
+.joke > p {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 15px;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
