@@ -9,12 +9,13 @@ body {
 
 .jokes {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  text-align: center;
 }
 
-.joke > h3 {
+/* .joke > h3 {
   text-align: center
-}
+} */
 
 .joke > p {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
