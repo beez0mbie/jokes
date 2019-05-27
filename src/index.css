@@ -12,11 +12,6 @@ body {
   flex-wrap: wrap;
 }
 
-.joke {
-  flex-basis: 300px;
-  margin: 20px;
-}
-
 .joke > h3 {
   text-align: center
 }
